@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo da memória</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div-top">
+        <h1>encontre o seguinte time:</h1>
+        <div id="img-descritiva">
+            <img src="./img/i2.webp" alt="" id="img-one">
+        </div>
+        <div class="div-tempo">
+            <p id="txt">Comece: </p>
+            <p id="timing">00</p>
+            <button id="start">start</button>
+        </div>
+        <p class="txt">tentativas restantes: <p id="tentativas">...</p></p>
+    </div>
+
+    <div class="box-dificulty">
+        <p>selecione o tempo(s)</p>
+        <div class="container-time">
+            <p id="time-5">5</p>
+            <p id="time-10">10</p>
+            <p id="time-15">15</p>
+        </div>
+    </div>
+
+    <div class="div-one">
+        <div class="div-1">
+            <div class="box" id="box-1"><img src="" alt="" class="imgs"></div>
+            <div class="box" id="box-2"><img src="" alt="" class="imgs"></div>
+            <div class="box" id="box-3"><img src="" alt="" class="imgs"></div>
+            <div class="box" id="box-4"><img src="" alt="" class="imgs"></div>
+            <div class="box" id="box-5"><img src="" alt="" class="imgs"></div>
+        </div>
+        
+        <div class="div-2">
+            <div class="box" id="box-6"><img src="" alt="" class="imgs"></div>
+            <div class="box" id="box-7"><img src="" alt="" class="imgs"></div>
+            <div class="box" id="box-8"><img src="" alt="" class="imgs"></div>
+            <div class="box" id="box-9"><img src="" alt="" class="imgs"></div>
+            <div class="box" id="box-10"><img src="" alt="" class="imgs"></div>
+        </div>
+
+        
+    </div>
+
+    <div id="box-vitoria">
+        <p class="txt-1">VOCÊ ACERTOU</p>
+        <!-- <button class="restart">restart</button> -->
+    </div>
+
+    <div id="box-erro">
+        <p class="txt-2">GAME OVER</p>
+        <!-- <button class="restart">restart</button> -->
+    </div>
+
+    <script src="index.js"></script>
+    <script src="index2.js"></script>
+</body>
+</html>
